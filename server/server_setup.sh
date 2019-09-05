@@ -56,7 +56,7 @@ python setup.py develop
 
 
 # Copy and enable the daemon
-cp /webapps/app_repo/days/089-092-deployment/demo/billtracker/server/billtracker.service /etc/systemd/system/billtracker.service
+cp /webapps/webapps/app_bill/server/billtracker.service /etc/systemd/system/billtracker.service
 
 systemctl start billtracker
 systemctl status billtracker
